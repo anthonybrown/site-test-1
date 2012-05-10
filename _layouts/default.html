@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>{ % if page.title % } {{ page.title }} | Anthony Brown, web developer </title>
+  <link rel='stylesheet' href='/css/style.css'>
+</head>
+<body>
+	<div id='wrapper'>
+		<header>
+			<h1>anthony brown</h1>
+			<h2>full stack web developer</h2>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+				<li><a href="/about">About</a></li>
+			</ul>		
+		</nav>
+		<div id="main">
+			{{ content }}
+		</div>
+
+		<footer>
+			<p>&copy; Anthony Brown Fullstack Web Service</p>
+		</footer>
+	</div><!-- end wrapper -->
+</body>
+</html>
